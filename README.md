@@ -1,8 +1,17 @@
 # Destini
 
-Truy?n ph?n nh?nh d??i tr?ng, ba ?o?n k?t v? b?t ??u l?i.
+Ứng dụng kể chuyện tương tác theo lựa chọn, lấy bối cảnh thung lũng dưới trăng.
 
-D? ?n Flutter ??c l?p, d?ng Flutter 3.38.6 / Dart 3.10.7.
+Dự án Flutter độc lập, dùng Flutter 3.38.6 / Dart 3.10.7.
+
+## Chức năng
+
+- Story lưu dữ liệu, StoryBrain điều hướng qua nextStory1 và nextStory2.
+- Các lựa chọn dẫn tới ba đoạn kết.
+- Dùng Visibility để ẩn lựa chọn thứ hai ở đoạn kết.
+- Nút Bắt đầu lại đưa câu chuyện về trạng thái ban đầu.
+
+## Chạy và kiểm tra
 
 ```powershell
 flutter pub get
@@ -11,4 +20,5 @@ flutter test
 flutter run -d chrome
 ```
 
-T?i nguy?n c?n thi?t ?? c? s?n trong d? ?n. ?? ki?m tra b?ng Flutter 3.38.6 / Dart 3.10.7: analyze, unit/widget test v? build web.
+Tài nguyên cần thiết đã có sẵn trong dự án. Đã kiểm tra bằng analyze, unit/widget test và build web.
+
