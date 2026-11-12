@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'story_brain.dart';
 
+// Flutter application entry point.
 void main() => runApp(const DestiniApp());
 
 class DestiniApp extends StatelessWidget {
